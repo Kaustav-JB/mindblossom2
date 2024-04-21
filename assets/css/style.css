@@ -582,7 +582,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 .about .content h3 {
@@ -970,7 +970,12 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 600px !important;
+  height: 600px !important;
+  object-fit: cover;
+  margin: auto;
+  align-items: baseline;
+  padding-left: 100px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -991,8 +996,9 @@ section {
 }
 
 .portfolio-details .portfolio-info {
+  /* background-color: lightblue; */
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(42, 42, 42, 0.08);
+  box-shadow: 0px 0 40px rgba(42, 42, 42, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1011,6 +1017,14 @@ section {
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+}
+
+.portfolio-details .portfolio-info ul li+li a {
+  color: #09b9d8;
+}
+
+.portfolio-details .portfolio-info ul li+li a:hover {
+  color: #000;
 }
 
 .portfolio-details .portfolio-description {
@@ -1297,6 +1311,36 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# MindfeedBlog
+--------------------------------------------------------------*/
+.mindfeedblog {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.mindfeedblog .phrases {
+  font-size: large;
+}
+
+.mindfeedblog .phrases p{
+  color: red;
+}
+.mindfeedblog .disclaimer h4{
+  font-size: medium;
+  font-weight: 700;
+  color: red;
+}
+.mindfeedblog .selfesteem{
+  font-size: larger;
+}
+
+.mindfeedblog span{
+  color:green !important;
+  font-weight: 700;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
